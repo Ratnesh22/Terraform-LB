@@ -79,6 +79,7 @@ module "azurerm_vm1" {
   admin_username = "insidervm1"
   admin_password = "qwerty!123456"
   pip_name = "insider-pip"
+  nsg_name = "insider-nsg1"
 
 }
 module "azurerm_vm2" {
@@ -94,6 +95,7 @@ module "azurerm_vm2" {
   admin_username = "insidervm2"
   admin_password = "qwerty!123456"
   pip_name = "insider-pip"
+  nsg_name = "insider-nsg2"
 
 }
 module "azurerm_lb" {

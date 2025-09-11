@@ -8,3 +8,4 @@ variable "key_vault_name" {}
 variable "admin_username" {}
 variable "admin_password" {}
 variable "pip_name" {}
+variable "nsg_name" {}
